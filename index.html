@@ -61,24 +61,60 @@
     </section>
 
     <!-- Aquí se agregan las secciones de dashboards según el rol -->
+
+    <!-- Postulante -->
     <section id="dashboardPostulante" class="container py-5 d-none">
         <h2>Panel del Postulante</h2>
+
+        <!-- Perfil del Postulante -->
         <div class="card mb-4">
             <div class="card-body">
-                <h4 class="card-tittle">Mi perfil</h4>
+                <h4 class="card-title">Mi Perfil</h4>
                 <form id="formPerfilPostulante">
                     <div class="mb-3">
                         <label class="form-label">Nombre completo</label>
                         <input type="text" class="form-control" id="postulanteNombre" required>
                     </div>
-                    <div class="">
-
+                    <div class="mb-3">
+                        <label class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="postulanteCorreo" required>
                     </div>
+                    <div class="mb-3">
+                        <label class="form-label">Habilidades</label>
+                        <input type="text" class="form-control" id="postulanteHabilidades"
+                            placeholder="Ej: JavaScript, diseño, etc.">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Experiencia laboral</label>
+                        <textarea class="form-control" id="postulanteExperiencia" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">CV (URL)</label>
+                        <input type="url" class="form-control" id="postulanteCV">
+                    </div>
+                    <button type="submit" class="btn btn-success">Guardar perfil</button>
                 </form>
+            </div>
+        </div>
+
+        <!-- Ofertas disponibles -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h4 class="card-title">Vacantes disponibles</h4>
+                <div id="listaVacantes" class="row"></div>
+            </div>
+        </div>
+
+        <!-- Historial de las postulaciones -->
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Mis postulaciones</h4>
+                <ul id="historialPostulaciones" class="list-group"></ul>
             </div>
         </div>
     </section>
 
+    <!-- Empresa -->
     <section id="dashboardEmpresa" class="container py-5 d-none">
         <h2>Panel de la Empresa</h2>
         <!-- Aqui info y botones -->

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "titulo": "Desarrollador Frontend",
+        "descripcion": "Se busca desarrollador con experiencia en JavaScript y React.",
+        "requisitos": "Conocimiento en HTML, CSS, JS, React",
+        "modalidad": "Remoto"
+    },
+    {
+        "id": 2,
+        "titulo": "Desarrollador Frontend",
+        "descripcion": "Empresa de tecnología busca diseñador con enfoque en experiencia de usuario.",
+        "requisitos": "Figma, Adobe XD, investigación de usuarios",
+        "modalidad": "Híbrido"
+    },
+    {
+        "id": 3,
+        "titulo": "Ingeniero de datos",
+        "descripcion": "Analista de datos para manejo de big data y BI.",
+        "requisitos": "SQL, Python, Power BI",
+        "modalidad": "Presencial"
+    },
+    {
+        "id": 4,
+        "titulo": "Gerente de Proyectos",
+        "descripcion": "Liderar proyectos tecnológicos y coordinar equipos multidisciplinarios.",
+        "requisitos": "Experiencia en gestión de proyectos, Scrum, Agile",
+        "modalidad": "Remoto"
+    },
+    {
+        "id": 5,
+        "titulo": "Especialista en Ciberseguridad",
+        "descripcion": "Proteger la infraestructura tecnológica de la empresa contra amenazas cibernéticas.",
+        "requisitos": "Conocimientos en redes, firewalls, y protocolos de seguridad",
+        "modalidad": "Híbrido"
+    }
+]
